@@ -1,0 +1,10 @@
+name = Rules Action Tweet
+description = Adds a tweet action to rules.
+package = Rules
+core = 7.x
+
+dependencies[] = rules
+//dependencies[] = sendtweetapi
+
+project = "rules"
+

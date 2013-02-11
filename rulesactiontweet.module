@@ -1,0 +1,15 @@
+<?php
+function rulesactiontweet_rules_action_info() {
+  $action = array(
+    'rulesactiontweet_tweet' => array(
+      'label' => 'Tweet',
+      'group' => t('Tweet'),
+    ),
+  );
+
+  return $action;
+}
+
+function rulesactiontweet_tweet() {
+  drupal_set_message('Tweet Sent');
+}
